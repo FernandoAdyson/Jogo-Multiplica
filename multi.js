@@ -66,7 +66,7 @@ function inputOnKeyPress(key) {
   segundoN.innerText = `${numero2}`;
   result = numero1 * numero2;
   Input.innerHTML = "0";
-  console.log(result);
+  //console.log(result);
   document.getElementById('valorDaMultiplicacao').value=''
 }
 
